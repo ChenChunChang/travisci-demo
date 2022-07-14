@@ -11,13 +11,13 @@ install:
 script:
   - npm run build
 
-#deploy:
-#  provider: pages
-#  skip_cleanup: true
-#  local_dir: dist/
-#  github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
-#  keep_history: false
-#  name: brian
-#  email: brian@toimc.com
-#  on:
-#    branch: main
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist/
+  github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep_history: false
+  name: ccc
+  email: 123@qq.com
+  on:
+    branch: master
